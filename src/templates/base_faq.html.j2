@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+</head>
+<body>
+  <h1>{{ heading }}</h1>
+  {% for qa in faq %}
+    <p><strong>Q:</strong> {{ qa.question }}</p>
+    <p><strong>A:</strong> {{ qa.answer }}</p>
+  {% endfor %}
+</body>
+</html>

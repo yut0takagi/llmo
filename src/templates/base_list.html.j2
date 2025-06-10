@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+</head>
+<body>
+  <h1>{{ heading }}</h1>
+  <ul>
+    {% for item in bullet_points %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
